@@ -1,8 +1,25 @@
 aid: vendorpm
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/vendorpm.png
 name: VendorPM
-description: 'VendorPM is a company surfaced as a portfolio company of bessemer-venture-partners and added
-  to the API Evangelist network as a stub for enrichment. Sector: vertical-software. This profile is a
-  lead awaiting the enrichment pipeline.'
+description: 'VendorPM is a PropTech procurement and vendor-lifecycle-management platform for the commercial
+  real estate industry, unifying vendor credentialing, compliance screening, eTendering/eBidding, procurement,
+  and contract management under a single login. Its marketplace connects property managers with a network
+  of 50,000+ vendors to fulfill building services and contracts of all sizes, while an AI Procurement
+  CoPilot surfaces recommendations and a Yardi Voyager ERP integration syncs vendor compliance and profile
+  data. VendorPM serves 100+ property management groups and 6,000+ buildings across the US and Canada.
+  This profile was surfaced as a Bessemer Venture Partners portfolio company; VendorPM exposes no public
+  self-serve developer API — its Yardi/ERP integration is provisioned through a Customer Success Manager.'
 url: https://raw.githubusercontent.com/api-evangelist/vendorpm/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +29,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Vertical Software
+- PropTech
+- Procurement
+- Real Estate
+- Property Management
+- Vendor Management
+- Contract Management
+- Compliance
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +49,26 @@ maintainers:
 common:
 - type: Website
   url: https://vendorpm.com/
+- type: Pricing
+  url: https://vendorpm.com/pricing
+- type: Blog
+  url: https://vendorpm.com/blog
+- type: Support
+  url: https://help.vendorpm.com/en/
+- type: SignUp
+  url: https://app.vendorpm.com/auth/register
+- type: Login
+  url: https://app.vendorpm.com/auth/login
+- type: TermsOfService
+  url: https://vendorpm.com/terms-of-services
+- type: PrivacyPolicy
+  url: https://vendorpm.com/privacy-policy-usa
+- type: ChangeLog
+  url: https://updates.vendorpm.com/
+- type: DomainSecurity
+  url: security/vendorpm-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
