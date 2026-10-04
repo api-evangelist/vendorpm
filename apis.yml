@@ -46,7 +46,7 @@ tags:
 - Vertical Software
 - PropTech
 - Procurement
-- Real-Estate
+- Real Estate
 - Property Management
 - Vendor Management
 - Contract Management
@@ -61,6 +61,7 @@ tags_raw:
 - Vendor Management
 - Contract Management
 - Compliance
+- Real-Estate
 apis: []
 maintainers:
 - FN: Kin Lane
